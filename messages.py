@@ -1,0 +1,23 @@
+welcome_message = """Assalomu Alaykum, {name}!
+
+Ijodimizga qiziqish bildirganingiz uchun tashakkur!
+
+Hozircha siz uchun futbolka, xudi, svitshot, kepka va stikerlar mavjud. Yaqin orada tanlovni kengaytiramiz. Aytganday, istagan turdagi kiyim buyurtma berganlarlarga qo'shimcha ravishda stikerpak sovg'a qilinadi :)
+
+Toshkent bo‘yicha yetkazib berish: 1–3 ish kuni
+O‘zbekiston bo‘yicha yetkazib berish: 3–7 ish kuni
+O‘zbekiston bo‘yicha jo‘natmalar seshanba va juma kunlari amalga oshiriladi
+
+450 000 so'mdan ortiq buyurtmalarni yetkazib berish - tekin!
+
+Agar bu shartlar sizni qoniqtirsa, “🔥 Mahsulotlar” bo'limiga o'tish orqali buyurtma berishni boshlashingiz mumkin."""
+
+
+partnership = """Biz sizning kompaniyangiz bilan hamkorlik qilishdan mamnunmiz va sizning buyurtmangizga asosan futbolkalar, xudi, svitshot va boshqa ko'p narsalarni tayyorlashimiz mumkin.
+
+Menejer bilan bog'lanish uchun: @tirik_chilik"""
+
+
+comments = """✅ <b>Tirikchilik</b> loyihasini tanlaganingiz uchun rahmat.
+Bizning xizmatlarimiz sifatini yaxshilashga yordam bersangiz juda xursand bo’lar edik :)
+Buning uchun 5 ballik tizim asosida bizni baholang yoki o'z tilaklaringizni yozib jo'nating."""

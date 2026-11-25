@@ -8,7 +8,13 @@ from telegram.ext import (
 )
 
 from settings import TOKEN
-from callbacks import start
+from callbacks import (
+    start,
+    send_cart,
+    send_partnership,
+    send_info,
+    send_comments,
+)
 
 
 def main() -> None:
@@ -18,6 +24,38 @@ def main() -> None:
     # command handlers
     dispatcher.add_handler(
         handler=CommandHandler(command=["start", "boshlash"], callback=start)
+    )
+
+    # message handler
+    dispatcher.add_handler(
+        handler=MessageHandler(
+            filters=Filters.text("🏠 Bosh menyu"),
+            callback=start,
+        )
+    )
+    dispatcher.add_handler(
+        handler=MessageHandler(
+            filters=Filters.text("📥Savat"),
+            callback=send_cart,
+        )
+    )
+    dispatcher.add_handler(
+        handler=MessageHandler(
+            filters=Filters.text("💼 Hamkorlik"),
+            callback=send_partnership,
+        )
+    )
+    dispatcher.add_handler(
+        handler=MessageHandler(
+            filters=Filters.text("ℹ️ Ma'lumot"),
+            callback=send_info,
+        )
+    )
+    dispatcher.add_handler(
+        handler=MessageHandler(
+            filters=Filters.text("✍️ Izoh qoldirish"),
+            callback=send_comments,
+        )
     )
 
     updater.start_polling()
